@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Anton', sans-serif;
+        }
+
+        head nav {
+            border-radius: 2px !important;
+        }
+
+        header nav a p {
+            color: #FFF !important;
+            display: inline;
+            text-transform: uppercase;
+        }
+
+        main {
+            margin-top: 100px;
+        }
+
+        main h1 {
+            color: #000;
+            font-family: 'Kaushan Script', cursive;
+        }
+
+        .card {
+            min-height: 550px;
+        }
+
+        .card .bottom-wrap {
+            padding: 1.25rem;
+            border-top: 1px solid #EEE;
+        }
+
+        .card img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .card .wrap-line-title {
+            overflow: hidden;
+            line-height: 1.5em;
+            height: 3em;
+        }
+
+        .card .wrap-line-description {
+            overflow: hidden;
+            line-height: 1.5em;
+            height: 4.5em;
+        }
+
+        footer {
+            color: #FFF;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(https://images2.alphacoders.com/233/thumb-1920-233472.jpg);">
+    <header>
+        <nav class="navbar fixed-top navbar-light bg-dark">
+            <a class="navbar-brand" href="https://getbootstrap.com/" target="_blank">
+                <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                    class="d-inline-block align-top" alt="" loading="lazy">
+                <p>Product list with Bootstrap 4.5.0</p>
+            </a>
+        </nav>
+    </header>
+
+    <main class="container lista-produtos">
+        <h1 class="text-center font-italic mb-4">Metallica Albums</h1>
+
+        <div class="row">
+            <!-- Kill 'em All -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/c/c7/KillEmAll.jpg" class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">KILL 'EM ALL</h5>
+                        <p class="card-text wrap-line-description">
+                            Remastered edition of Kill ‘Em All on CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=-TQllOUnAL4" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 12</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/kill-em-all---remastered-cd/TLX9REWJ.html?cgid=CDs#start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ride the Lightning -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://d26lpennugtm8s.cloudfront.net/stores/001/014/233/products/071f5b9c7244f8ba4efbec1fb4ad2f751-90d4f261d0ad9a829015624350845291-1024-1024.png"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">RIDE THE LIGHTNING</h5>
+                        <p class="card-text wrap-line-description">
+                            Remastered edition of Ride the Lightning on CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=fJ8Nnc_d8iU" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 10</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/ride-the-lightning---remastered-cd/9RXET43A.html?cgid=CDs"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Master of Puppets -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81hryXAVZjL._AC_SX522_.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">MASTER OF PUPPETS</h5>
+                        <p class="card-text wrap-line-description">
+                            MASTER OF PUPPETS (REMASTERED) - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=ebN6EBh8xDA" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 5</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/master-of-puppets-remastered---cd/3UTRCAHX.html?cgid=CDs#start=1&sz=12"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Garage Days Re-Revisited -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71Yyg0Mh5UL._AC_SX425_.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title text-uppercase">Garage Days Re-Revisited</h5>
+                        <p class="card-text wrap-line-description">
+                            THE $5.98 EP – GARAGE DAYS RE-REVISITED (REMASTERED) CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=b5GMXRm6NgM" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $7.98</p>
+                        <p class="quantity float-right">Items: 70</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/the-5.98-ep-%E2%80%93-garage-days-re-revisited-remastered-cd/HWW3_RU9.html?cgid=CDs#start=1&sz=12"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- And Justice For All -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/dd/1f/6e/dd1f6eb3f32ba401131b1ce050024125.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">...AND JUSTICE FOR ALL</h5>
+                        <p class="card-text wrap-line-description">
+                            ...AND JUSTICE FOR ALL (REMASTERED) - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=QnXOSUQ5HJY" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.98</p>
+                        <p class="quantity float-right">Items: 15</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/and-justice-for-all-remastered-cd/REAJFACD.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Black Album -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://roquereverso.files.wordpress.com/2011/08/1313271187_3501.jpg?w=300&h=300"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">BLACK ALBUM</h5>
+                        <p class="card-text wrap-line-description">
+                            METALLICA (THE BLACK ALBUM) - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=LtyxWnjb96s&t=3s" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 20</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/metallica-the-black-album---cd/CD05.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81J-7n9wWrL._AC_SL1425_.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">LOAD</h5>
+                        <p class="card-text wrap-line-description">
+                            LOAD - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=I-6_rKWkN1M&t=3s" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 100</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/load---cd/CD06.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reload -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/500x500/2337cd15387549e5a94c04b6ad92b68c.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">RELOAD</h5>
+                        <p class="card-text wrap-line-description">
+                            RELOAD - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=Dyrsh9i5-oA" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 110</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/reload---cd/CD07.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Garage Inc. -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://roadie-metal.com/wp-content/uploads/2016/09/229426.jpg" class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">GAREGE INC.</h5>
+                        <p class="card-text wrap-line-description">
+                            GARAGE INC. - CD
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=sScPEOZ3VeE&t=379s" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $19.99</p>
+                        <p class="quantity float-right">Items: 87</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/garage-inc.---cd/CD08.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- St. Anger -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2019/06/metallica-st-anger-capa-696x696.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">ST. ANGER</h5>
+                        <p class="card-text wrap-line-description">
+                            ST. ANGER - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=_3ZMQoRHkas" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 1000</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/st.-anger---cd/CD10.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Death Magnetic -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/94/Death_Magnetic.jpg" class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">DEATH MAGNETIC</h5>
+                        <p class="card-text wrap-line-description">
+                            DEATH MAGNETIC - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=WSgehBeA1Tc" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 49</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/death-magnetic---cd/CD12.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beyond Magnetic -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/61EG3r2I5%2BL._SL1425_.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title">BEYOND MAGNETIC</h5>
+                        <p class="card-text wrap-line-description">
+                            BEYOND MAGNETIC - CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=_ivsAQtcWtk" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.99</p>
+                        <p class="quantity float-right">Items: 65</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/beyond-magnetic-ep---cd/CD18.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Hardwired...To Self-Destruct -->
+            <div class="col-sm-12 col-lg-3 col-xl-3 mb-5">
+                <div class="card">
+                    <img src="https://images-americanas.b2w.io/produtos/01/00/item/18622/8/18622899_1SZ.jpg"
+                        class="card-img-top">
+                    <div class="card-body description">
+                        <h5 class="card-title wrap-line-title text-uppercase">Hardwired...To Self-Destruct</h5>
+                        <p class="card-text wrap-line-description">
+                            HARDWIRED...TO SELF-DESTRUCT – CD.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=dUfYDWOk1ms" target="_blank"
+                            class="btn btn-sm btn-block btn-dark text-uppercase">Check out</a>
+                    </div>
+                    <div class="bottom-wrap">
+                        <p class="price float-left">Price: $11.19</p>
+                        <p class="quantity float-right">Items: 60</p>
+                        <span class="clearfix"></span>
+                        <a href="https://www.metallica.com/store/cds/hardwired...to-self-destruct-%E2%80%93-cd/L9WU3H_J.html?cgid=CDs#viewAll=true&start=1"
+                            class="btn btn-dark btn-block text-uppercase" target="_blank">Buy Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="fixed-bottom bg-dark">
+            <div class="row">
+                <div class="container">
+                    <span>© Create by
+                        <a href="https://github.com/HaraHeique" target="_blank">Harã Heique</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
